@@ -14,7 +14,7 @@
 # 在MacOS终端运行如下命令
 brew install curl
 brew install jq
-# 修改checker.sh内容,填充cURL和BarkID. ***MAKE sure that curl is correct getMultiReserveTime***
+# 修改checker.sh内容,填充cURL和BarkID. *** MAKE sure that curl is correct getMultiReserveTime ***
 bash checker.sh
 ```
 ---
