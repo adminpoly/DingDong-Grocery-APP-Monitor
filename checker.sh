@@ -27,7 +27,10 @@ if [[ $availableCount -gt 0 ]]; then
     exit 0
 fi
 
-echo "无可用配送时段 休眠15秒再试..."
-sleep 15
+
+sleepTime=$(( ( RANDOM % 30 )  + 30 )) #Sleep between 30 and 60 seconds
+
+echo "无可用配送时段 休眠"$sleepTime "秒再试..."
+sleep $sleepTime
 
 done
