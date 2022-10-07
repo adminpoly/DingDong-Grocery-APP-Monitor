@@ -1,4 +1,4 @@
-## Script for DingDong (叮咚买菜) Englsih version
+## Script for DingDong (叮咚买菜) English version
 
 Due to the epidemic of lockdowns in Shanghai over the past weeks, the situation has evolved beyond almost everyone's expectations. Many people's situations have turned into a situation where they can't leave home, and as they can't leave home day by day, the previously prepared supplies are getting less and less.
 
@@ -8,7 +8,7 @@ So some users wanted to make a small script. This Dingdong Script is built to he
 
 | Description |
 | ------------ |
-| This script checks if there is a deliverable time slot today for the DingDong (叮咚买菜) APP (https://www.100.me/home/index) every so often, and push a notification it to your phone if there is a deliverable time slot.
+| This script checks if there is a deliverable time slot today for the DingDong (叮咚买菜) APP (https://www.100.me/home/index) every so often, and push a notification to your phone if there is a deliverable time slot.
 
 **MacOS+iOS use**
 
