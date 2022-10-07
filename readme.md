@@ -18,12 +18,12 @@ So some users wanted to make a small script. This Dingdong Script is built to he
 **Instruction for MacOS and CentOS terminal**
 
 ```bash
-# Run the following command in MacOS terminal
+**Run the following command in MacOS terminal**
 brew install curl
 brew install jq
 *** MAKE sure that curl is correct getMultiReserveTime in the Script ***
 bash checker.sh
-``` ---
+
 
 **CentOS server+iOS use**
 
