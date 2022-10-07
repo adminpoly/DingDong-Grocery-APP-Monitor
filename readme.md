@@ -12,7 +12,7 @@ So some users wanted to make a small script. This Dingdong Script is built to he
 
 **MacOS+iOS use**
 
-> Fist install [Bark](https://apps.apple.com/es/app/bark-%E7%BB%99%E4%BD%A0%E7%9A%84%E6%89%8B%E6%9C%BA%E5%8F%91%E6%8E%A8%E9%80%81/id1403753865) push tool into your phone.
+> First install [Bark](https://apps.apple.com/es/app/bark-%E7%BB%99%E4%BD%A0%E7%9A%84%E6%89%8B%E6%9C%BA%E5%8F%91%E6%8E%A8%E9%80%81/id1403753865) push tool into your phone.
 
 
 **Instruction for MacOS and CentOS terminal**
@@ -21,13 +21,12 @@ So some users wanted to make a small script. This Dingdong Script is built to he
 # Run the following command in MacOS terminal
 brew install curl
 brew install jq
-*** MAKE sure that curl is correct getMultiReserveTime ***
+*** MAKE sure that curl is correct getMultiReserveTime in the Script ***
 bash checker.sh
 ``` ---
-checker.sh ---
 
 **CentOS server+iOS use**
-```shell
+
 yum install screen
 yum install jq
 wget https://raw.githubusercontent.com/6r6/maicai.ddxq.tools/main/checker.sh
