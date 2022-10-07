@@ -8,11 +8,14 @@ So some users wanted to make a small script. This Dingdong Script is built to he
 
 | Description |
 | ------------ |
-| Check if there is a deliverable time slot today for the DingDong (叮咚买菜) APP (https://www.100.me/home/index) every so often, and push it to your phone if there is deliverable time slot.
+| This script checks if there is a deliverable time slot today for the DingDong (叮咚买菜) APP (https://www.100.me/home/index) every so often, and push a notification it to your phone if there is a deliverable time slot.
 
 **MacOS+iOS use**
 
-> Phone please install [Bark](https://apps.apple.com/es/app/bark-%E7%BB%99%E4%BD%A0%E7%9A%84%E6%89%8B%E6%9C%BA%E5%8F%91%E6%8E%A8%E9%80%81/id1403753865) push tool
+> Fist install [Bark](https://apps.apple.com/es/app/bark-%E7%BB%99%E4%BD%A0%E7%9A%84%E6%89%8B%E6%9C%BA%E5%8F%91%E6%8E%A8%E9%80%81/id1403753865) push tool into your phone.
+
+
+> Instruction for MacOS and CentOS terminal
 
 ```bash
 # Run the following command in MacOS terminal
