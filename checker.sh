@@ -1,36 +1,36 @@
 #!/bin/bash
-# 检查叮咚买菜是否有可配送时段,有则通过Bark推送
+# Check if Dingtone grocery shopping has delivery slots, and push it through Bark if it does.
 
-# (*)请填充BarkId
+# (*) Please fill in the BarkId
 barkId=""
 
 while :; do
 
-echo "正在检查是否有可用配送时段..."
+echo "Checking for available delivery slots..."
 
-# (*)请填充cURL命令,别忘记输出到tmp.json
+# (*)Please fill the cURL command, don't forget to output to tmp.json
 # curl https://maicai.api.ddxq.mobi/order/getMultiReserveTime > tmp.json
 
 responseCodeCheck=`cat tmp.json | jq -r '.code'`
 
 if [[ $responseCodeCheck -ne 0 ]]; then
     cat tmp.json
-    echo "😭 抱歉 请检查cURL命令是否能获取到正确的数据"
+    echo "😭 Sorry Please check if the cURL command can get the correct data"
     exit 1
 fi
 
 availableCount=`cat tmp.json | jq -r '.data[0].time[0].times[].disableType' | grep -c 0`
 
 if [[ $availableCount -gt 0 ]]; then
-    echo "🎉 恭喜 发现可用的配送时段 请尽快下单!"
-    curl "https://api.day.app/$barkId/叮咚买菜有可用配送时段请尽快下单/"
+    echo "🎉 Congratulations! Please place your order as soon as you find an available delivery slot!"
+    curl "https://api.day.app/$barkId/Dingtone_grocery_shopping_has_available_delivery_slots_please_place_your_order_as_soon_as_possible/"
     exit 0
 fi
 
 
 sleepTime=$(( ( RANDOM % 30 )  + 30 )) #Sleep between 30 and 60 seconds
 
-echo "无可用配送时段 休眠"$sleepTime "秒再试..."
+echo "No available delivery time Hibernate "$sleepTime" seconds and try again..."
 sleep $sleepTime
 
 done
