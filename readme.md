@@ -1,34 +1,34 @@
-## maicai.ddxq.tools AIDEN version
+## maicai.ddxq.tools Englsih version
 
 **Checker.sh**
 
-| 描述  |
+| Description |
 | ------------ |
-| 每隔一段时间检查今天是否有可配送时段，有则推送到手机  |
+| Check if there is a deliverable time slot today every so often, and push it to your phone if there is.
 
-**MacOS+iOS使用**
+**MacOS+iOS use**
 
-> 手机请安装[Bark](https://apps.apple.com/cn/app/bark-%E7%BB%99%E4%BD%A0%E7%9A%84%E6%89%8B%E6%9C%BA%E5%8F%91%E6%8E%A8%E9%80%81/id1403753865)推送工具
+> Phone please install [Bark](https://apps.apple.com/cn/app/bark-%E7%BB%99%E4%BD%A0%E7%9A%84%E6%89%8B%E6%9C%BA%E5%8F%91%E6%8E%A8%E9%80%81/ id1403753865) push tool
 
 ```bash
-# 在MacOS终端运行如下命令
+# Run the following command in MacOS terminal
 brew install curl
 brew install jq
-# 修改checker.sh内容,填充cURL和BarkID. *** MAKE sure that curl is correct getMultiReserveTime ***
+*** MAKE sure that curl is correct getMultiReserveTime ***
 bash checker.sh
-```
----
+``` ---
+checker.sh ---
 
-**CentOS 服务器+iOS使用**
+**CentOS server+iOS use**
 ```shell
 yum install screen
 yum install jq
 wget https://raw.githubusercontent.com/6r6/maicai.ddxq.tools/main/checker.sh
-# 修改checker.sh内容，将抓包获得的项目、BarkID填充至对应位置
-# BarkID在安装应用、注册设备后获得 示例：https://api.day.app/这里是BarkID/
-# 挂载后台运行，避免会话关闭任务停止
+# Modify the contents of checker.sh to populate the project and BarkID obtained from the packet capture to the corresponding location
+# BarkID is obtained after installing the application and registering the device Example: https://api.day.app/BarkID/
+# Mount the background to avoid the session closing task stop
 screen -S shopping 
 bash checker.sh
-# 查看后台会话
+# Check the background session
 screen -r shopping
 ```
