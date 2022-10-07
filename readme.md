@@ -10,7 +10,7 @@ This Dingdong Script is built to help people automatically operate the repetitiv
 | ------------ |
 | This script checks if there is a deliverable time slot today for the DingDong (叮咚买菜) APP (https://www.100.me/home/index) every so often, and push a notification to your phone if there is a deliverable time slot for your orders.
 
-**MacOS+iOS use**
+**MacOS+iOS or CentOS+iOS use**
 
 > First install [Bark](https://apps.apple.com/es/app/bark-%E7%BB%99%E4%BD%A0%E7%9A%84%E6%89%8B%E6%9C%BA%E5%8F%91%E6%8E%A8%E9%80%81/id1403753865) push tool into your phone.
 
