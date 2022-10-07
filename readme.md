@@ -8,7 +8,7 @@ So some users wanted to make a small script. This Dingdong Script is built to he
 
 | Description |
 | ------------ |
-| Check if there is a deliverable time slot today for the DingDong (叮咚买菜) APP (https://www.100.me/home/index) every so often, and push it to your phone if there is.
+| Check if there is a deliverable time slot today for the DingDong (叮咚买菜) APP (https://www.100.me/home/index) every so often, and push it to your phone if there is deliverable time slot.
 
 **MacOS+iOS use**
 
