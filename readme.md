@@ -8,7 +8,7 @@ This Dingdong Script is built to help people automatically operate the repetitiv
 
 | Description |
 | ------------ |
-| This script checks if there is a deliverable time slot today for the DingDong (叮咚买菜) APP (https://www.100.me/home/index) every so often, and push a notification to your phone if there is a deliverable time slot.
+| This script checks if there is a deliverable time slot today for the DingDong (叮咚买菜) APP (https://www.100.me/home/index) every so often, and push a notification to your phone if there is a deliverable time slot for your orders.
 
 **MacOS+iOS use**
 
