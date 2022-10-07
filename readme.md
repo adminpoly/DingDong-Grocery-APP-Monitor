@@ -19,6 +19,7 @@ So some users wanted to make a small script. This Dingdong Script is built to he
 
 ```bash
 **Run the following command in MacOS terminal**
+
 brew install curl
 brew install jq
 *** MAKE sure that curl is correct getMultiReserveTime in the Script ***
