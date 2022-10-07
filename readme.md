@@ -4,7 +4,7 @@
 
 | Description |
 | ------------ |
-| Check if there is a deliverable time slot today every so often, and push it to your phone if there is.
+| Check if there is a deliverable time slot today for the DingDong APP (https://www.100.me/home/index) every so often, and push it to your phone if there is.
 
 **MacOS+iOS use**
 
