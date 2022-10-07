@@ -4,7 +4,7 @@ Due to the epidemic of lockdowns in Shanghai over the past weeks, the situation 
 
 Although you can buy food in Dingdong and other software, the availability is very low due to high demand, and a long time of repeated manual refresh almost consumed all patience.
 
-So some users wanted to make a small script. This Dingdong Script is built to help people automatically operate the repetitive check process.
+This Dingdong Script is built to help people automatically operate the repetitive check process.
 
 | Description |
 | ------------ |
