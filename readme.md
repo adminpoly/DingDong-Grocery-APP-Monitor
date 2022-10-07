@@ -1,6 +1,10 @@
-## maicai.ddxq.tools Englsih version
+## Script for DingDong (叮咚买菜) Englsih version
 
-**Checker.sh**
+Due to the epidemic of lockdowns in Shanghai over the past weeks, the situation has evolved beyond almost everyone's expectations. Many people's situations have turned into a situation where they can't leave home, and as they can't leave home day by day, the previously prepared supplies are getting less and less.
+
+Although you can buy food in Dingdong and other software, they are all to be grabbed, and a long time of repeated manual refresh almost consumed all patience, resulting in a worsening mood.
+
+So some users wanted to make a small script. This Dingdong Script is built to help people automatically operate the repetitive check process.
 
 | Description |
 | ------------ |
