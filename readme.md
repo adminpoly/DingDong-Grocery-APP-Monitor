@@ -1,4 +1,4 @@
-## Script for DingDong (叮咚买菜) English version
+## DingDong Monitor (叮咚买菜) English version
 
 Special thanks to the original author @6r6 and @synapse73 for the testing. 
 
