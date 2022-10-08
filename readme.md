@@ -4,7 +4,7 @@ Special thanks to the original author @6r6 and @synapse73 for the testing.
 
 Due to the epidemic of lockdowns in Shanghai over the past weeks, the situation has evolved beyond almost everyone's expectations. Many people's situations have turned into a situation where they can't leave home, and as they can't leave home day by day, the previously prepared supplies are getting less and less.
 
-Although you can buy food in Dingdong and other software, the availability is very low due to high demand, and a long time of repeated manual refresh almost consumed all patience.
+Although you can buy food in Dingdong and other software, the availability is very low due to high demand, and a long time of repeated manual checking makes the experience frustrating.
 
 This Dingdong Script is built to help people automatically operate the repetitive check process.
 
