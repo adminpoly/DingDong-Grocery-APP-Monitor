@@ -36,7 +36,7 @@ yum install jq
 wget https://raw.githubusercontent.com/6r6/maicai.ddxq.tools/main/checker.sh
 # Modify the contents of checker.sh to populate the project and BarkID obtained from the packet capture to the corresponding location
 # BarkID is obtained after installing the application and registering the device Example: https://api.day.app/BarkID/
-# Mount the background to avoid the session closing task stop
+# Mount the background to avoid the session closing
 screen -S shopping 
 bash checker.sh
 # Check the background session
